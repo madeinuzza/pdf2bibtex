@@ -16,12 +16,12 @@ Researchers often spend significant time on manual metadata extraction. pdf2bibt
 ### Repository Structure
 
 The project is organized into modular scripts to ensure reliability and ease of maintenance:
-    - src/parser.py: Selects random samples from large paper datasets (e.g., ArXiv).
-    - src/pdf_downloader.py: Handles the automated downloading of PDF files.
-    - src/enrich_data.py: Manages the generation of the BibTeX column and data enrichment.
-    - src/data_builder.py: Constructs the final structured dataset.
-    - src/core.py: Contains global configurations, file paths, and data schemas.
-    - src/pdf_loader.py: Manages the loading and initial processing of PDF content.
+- src/parser.py: Selects random samples from large paper datasets (e.g., ArXiv).
+- src/pdf_downloader.py: Handles the automated downloading of PDF files.
+- src/enrich_data.py: Manages the generation of the BibTeX column and data enrichment.
+- src/data_builder.py: Constructs the final structured dataset.
+- src/core.py: Contains global configurations, file paths, and data schemas.
+- src/pdf_loader.py: Manages the loading and initial processing of PDF content.
 
 ### Installation & Usage 
 
