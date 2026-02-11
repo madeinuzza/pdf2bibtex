@@ -1,0 +1,6 @@
+Source: ArXiv Metadata OAI Snapshot (Kaggle) 
+Date Generated: 2026-02-03 
+Categories: cs, physics, math, q-bio, q-fin 
+Samples per category: 1000 
+Seed used: 42 
+Filter: journal-ref is NOT null, year >= 2007

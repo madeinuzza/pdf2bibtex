@@ -1,0 +1,20 @@
+# Ignore the massive raw dataset
+data/raw/arxiv-metadata-oai-snapshot.json
+
+# Ignore all PDF downloads
+data/raw_pdfs/*.pdf
+data/raw/
+
+# Ignore the processed data (if it's large)
+data/processed/*.jsonl
+
+# Ignore Python environment and cache
+__pycache__/
+.venv/
+.env
+.DS_Store
+src/__pycache__/
+src/pdf2bibtex/__pycache__/
+
+# Ignore draft files
+README_draft.md
